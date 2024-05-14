@@ -11,7 +11,7 @@
     "url": "git+https://github.com/apiverve/wordpronunciation-API.git"
   },
   "keywords": [
-    "word pronunciation"," word pronunciation api"," word pronunciation tool"," word pronunciation software"," word pronunciation service"," word pronunciation library"," word pronunciation sdk"," word pronunciation code"," word pronunciation script"," word pronunciation program"," word pronunciation application"," word pronunciation app"," word pronunciation utility"," word pronunciation helper"," word pronunciation helper tool"," word pronunciation helper software"," word pronunciation helper service"," word pronunciation helper library"," word pronunciation helper sdk"," word pronunciation helper code"," word pronunciation helper script"," word pronunciation helper program"," word pronunciation helper application"," word pronunciation helper app"," word pronunciation helper utility"," word pronunciation helper"
+    "word pronunciation","word pronunciation api","word pronunciation tool","word pronunciation software","word pronunciation service"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
@@ -27,6 +27,6 @@
   "dependencies": {
     "node-fetch": "3.3.2",
     "promise": "^7.1.1",
-    "request": "^2.69.0"
+    "axios": "^0.15.3"
   }
 }
