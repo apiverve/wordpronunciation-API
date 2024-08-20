@@ -73,7 +73,8 @@ api.execute(query, function (error, data) {
   "data": {
     "word": "hello",
     "pronounciation": "HH AH0 L OW1"
-  }
+  },
+  "code": 200
 }
 ```
 
