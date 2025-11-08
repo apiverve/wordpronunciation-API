@@ -1,24 +1,26 @@
 {
   "name": "@apiverve/wordpronunciation",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "Word Pronunciation is a simple tool for getting the pronunciation of a word. It returns the pronunciation of the word provided.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "example": "node examples/basic.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/apiverve/wordpronunciation-API.git"
   },
   "keywords": [
-    "word pronunciation","word pronunciation api","word pronunciation tool","word pronunciation software","word pronunciation service"
+    "word pronunciation", "word pronunciation api", "word pronunciation tool", "word pronunciation software", "word pronunciation service"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/apiverve/wordpronunciation-API/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/api/wordpronunciation?utm_source=npm",
+  "homepage": "https://apiverve.com/marketplace/wordpronunciation?utm_source=npm",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
@@ -27,6 +29,6 @@
   "dependencies": {
     "node-fetch": "^3.3.2",
     "promise": "^8.3.0",
-    "axios": "1.7.9"
+    "axios": "1.13.2"
   }
 }
